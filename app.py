@@ -11,7 +11,7 @@ async def on_startup(dispatcher):
     # Birlamchi komandalar (/star va /help)
     await set_default_commands(dispatcher)
 
-    # Bot ishga tushgani haqida adminga xabar berish
+    # Bot ishga tushgani haqida adminga xabar  berish
     await on_startup_notify(dispatcher)
 
 
